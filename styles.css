@@ -2,6 +2,7 @@
   padding: 0;
   margin: 0;
   font-family: 'Open Sans', sans-serif;
+  color: var(--dark-blue);
 }
 
 :root {
@@ -20,23 +21,50 @@ h1 {
   line-height: 1.1;
 }
 
+h2 {
+  font-size: 38px;
+  line-height: 1.1;
+}
+
 h3 {
   font-size: 17px;
   font-weight: 500;
+  line-height: 1.5em;
 }
 
-.h1-white {
+h4 {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.h1-white, .h2-white, .h5-white {
   color: var(--white);
-  line-height: 1.1em;
 }
 
 .h3-light-grey {
   color: var(--light-grey);
-  line-height: 1.5em;
 }
+
+.p-dark-grey{
+  color: var(--dark-grey)
+}
+
+
 
 a {
   text-decoration: none;
+}
+
+hr {
+  width: 50px;
+  height: 5px;
+  background-color: var(--blue);
+  margin: 30px auto 0;
+}
+
+.wrapper {
+  padding: 50px 10px;
+  text-align: center;
 }
 
 /* MOBILE FIRST */
@@ -62,11 +90,6 @@ span {
 
 .hero {
   background-color: var(--dark-blue);
-}
-
-.hero-wrapper {
-  padding: 50px 10px;
-  text-align: center;
 }
 
 .h3-hero-section {
@@ -103,6 +126,32 @@ span {
 
 /* BENEFITS */
 
-.benefits {
+i {
+  color: var(--white);
+  background-color: var(--blue);
+  border-radius: 50px;
+  font-size: 30px;
+  margin: 50px auto 30px;
+}
 
+.fa-vr-cardboard, .fa-laptop, .fa-photo-video {
+  padding: 30px 27px;
+}
+
+.fa-chart-bar, .fa-street-view, .fa-sign {
+  padding: 30px;
+}
+
+.h4-benefits-section {
+  padding-bottom: 30px;
+}
+
+/* DEMO TOUR */
+
+.demo-tour {
+  background-color: var(--dark-blue);
+}
+
+.h5-demo-section {
+  padding: 30px 0;
 }
