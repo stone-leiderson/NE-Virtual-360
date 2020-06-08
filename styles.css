@@ -302,3 +302,7 @@ iframe {
 .contact-us {
   background-color: var(--off-white);
 }
+
+.review-bottom-photo {
+  display: none;
+}
