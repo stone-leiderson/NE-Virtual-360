@@ -10,6 +10,7 @@
   --blue: #2B4BFF;
   --dark-blue: #171C27;
   --white: #FFFFFF;
+  --off-white: #EEEEEE;
   --light-grey: #C0C0C0;
   --dark-grey: #4C4C4C;
 }
@@ -48,6 +49,11 @@ h5 {
   font-weight: 600;
 }
 
+button {
+  cursor: pointer;
+  outline: none;
+}
+
 .white {
   color: var(--white);
 }
@@ -71,6 +77,7 @@ a {
 hr {
   width: 50px;
   height: 5px;
+  border: 0;
   background-color: var(--blue);
   margin: 30px auto 0;
 }
@@ -81,6 +88,12 @@ hr {
   max-width: 1300px;
   margin: 0 auto;
 }
+
+.margin-top-20 {
+  margin-top: 20px;
+}
+
+
 
 /* MOBILE FIRST */
 
@@ -128,7 +141,7 @@ span {
 
 .blue-wide-button, .white-wide-button, .blue-medium-button, .white-medium-button {
   border-radius: 50px;
-  font: 16px;
+  font-size: 16px;
   font-weight: 600;
   border: 0;
 }
@@ -197,20 +210,31 @@ iframe {
   margin: 50px 0 0;
 }
 
-/* CUSTOM 360 WALKTHROUGH */
+/* CUSTOM 360 WALKTHROUGH | 3D SCAN TOUR CARD STYLES */
 
 .custom-walkthrough {
   background-color: var(--dark-blue);
 }
 
-.custom-walkthrough-description-box {
+.custom-wrapper {
+  max-width: 1100px;
+}
+
+.pricing-description-box-white {
   background-color: var(--white);
+}
+
+.pricing-description-box-blue{
+  background-color: var(--dark-blue);
+}
+
+.pricing-description-box-white, .pricing-description-box-blue {
   padding: 20px;
   border-radius: 10px;
   margin-top: 50px;
 }
 
-.h5-custom-walkthrough-bottom-padding {
+.h5-pricing-description-bottom-padding {
   padding-bottom: 20px;
 }
 
@@ -231,7 +255,12 @@ iframe {
   border-radius: 10px;
   padding: 50px;
   margin: 50px auto 0;
-  max-width: 200px;
+  max-width: 230px;
+  box-shadow:
+  0 0px 3.3px rgba(0, 0, 0, 0.004),
+  0 0px 9px rgba(0, 0, 0, 0.008),
+  0 0px 21.7px rgba(0, 0, 0, 0.018),
+  0 0px 72px rgba(0, 0, 0, 0.07);
 }
 
 .price-card-flexbox {
@@ -245,8 +274,31 @@ iframe {
 }
 
 .price-card-min-height-flexbox {
-  min-height: 400px;
+  min-height: 500px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+}
+
+.price-card-pricing {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.white-card-hr, .blue-card-hr {
+  margin: 30px auto;
+}
+
+.white-card-hr {
+  background-color: var(--dark-grey)
+}
+
+.blue-card-hr {
+  background-color: var(--white);
+}
+
+/* CONTACT US */
+
+.contact-us {
+  background-color: var(--off-white);
 }
