@@ -154,6 +154,11 @@ span {
   color: var(--dark-blue);
 }
 
+.demo-tour-hero {
+  display: block;
+  margin-top: 30px;
+}
+
 /* BENEFITS */
 
 .fa-vr-cardboard, .fa-laptop, .fa-photo-video, .fa-chart-bar, .fa-street-view, .fa-sign {
