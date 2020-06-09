@@ -64,12 +64,12 @@ button {
 
 button:hover {
   box-shadow:
-  0 2.8px 3.8px -4px rgba(0, 0, 0, 0.084),
-  0 6.7px 9px -4px rgba(0, 0, 0, 0.132),
-  0 12.5px 17px -4px rgba(0, 0, 0, 0.161),
-  0 22.3px 30.4px -4px rgba(0, 0, 0, 0.18),
-  0 41.8px 56.8px -4px rgba(0, 0, 0, 0.192),
-  0 100px 136px -4px rgba(0, 0, 0, 0.2);
+  0 2.8px 3.8px -4px rgba(0, 0, 0, 0.05),
+  0 6.7px 9px -4px rgba(0, 0, 0, 0.079),
+  0 12.5px 17px -4px rgba(0, 0, 0, 0.097),
+  0 22.3px 30.4px -4px rgba(0, 0, 0, 0.108),
+  0 41.8px 56.8px -4px rgba(0, 0, 0, 0.115),
+  0 100px 136px -4px rgba(0, 0, 0, 0.12);
 }
 
 .white {
@@ -303,7 +303,6 @@ iframe {
   border-radius: 10px;
   padding: 50px;
   margin: 50px auto 0;
-  max-width: 250px;
   box-shadow:
   0 0px 3.3px rgba(0, 0, 0, 0.004),
   0 0px 9px rgba(0, 0, 0, 0.008),
@@ -322,7 +321,7 @@ iframe {
 }
 
 .price-card-min-height-flexbox {
-  min-height: 500px;
+  min-height: 550px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -358,4 +357,195 @@ iframe {
 .contact-us-flexbox {
   display: flex;
   flex-direction: column;
+  margin: 50px 0 0;
+}
+
+/* MEDIA QUERIES */
+
+@media (min-width: 600px) {
+  .wrapper {
+    padding: 50px 20px;
+  }
+
+  .blue-wide-button, .white-wide-button {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .white-price-card, .blue-price-card {
+    padding: 50px 100px;
+  }
+
+  .what-we-do-picture {
+    width: 70%;
+    margin: 0 auto;
+  }
+
+}
+
+@media (min-width: 768px) {
+  h1 {
+    font-size: 50px;
+  }
+
+  .logo {
+    font-size: 30px;
+  }
+
+  .header-wrapper {
+    padding: 20px;
+  }
+
+  .benefits-flexbox {
+    flex-direction: row;
+    margin: 50px 0 0;
+    justify-content: space-evenly;
+  }
+
+  .benefits-icon-container {
+    flex-direction: row;
+    max-width: 50%;
+  }
+
+  .benefits-text-flexbox {
+    padding: 0 20px
+  }
+
+  .h4-benefits-section, .p-benefits-section {
+    text-align: left;
+  }
+
+  .fa-vr-cardboard, .fa-laptop, .fa-photo-video, .fa-chart-bar, .fa-street-view, .fa-sign {
+    margin: auto;
+  }
+
+  .what-we-do-flexbox-text {
+    padding: 0 30px;
+  }
+
+  .what-we-do-picture {
+    width: 50%;
+  }
+
+  .pricing-description-box-white, .pricing-description-box-blue {
+    padding: 40px;
+  }
+
+}
+
+@media (min-width: 1024px) {
+  .header-wrapper {
+    padding: 20px 50px;
+  }
+
+  .wrapper {
+    padding: 100px 50px;
+  }
+
+  h1 {
+    text-align: left;
+  }
+
+  .h3-hero-section {
+    text-align: left;
+    font-size: 20px;
+    padding: 0;
+  }
+
+  .hero-flexbox-large {
+    flex-direction: row;
+  }
+
+  .hero-flexbox-large-left {
+    display: flex;
+    flex-direction: column;
+    max-width: 50%;
+    padding-right: 50px;
+    justify-content: space-between;
+  }
+
+  .demo-tour-hero {
+    width: 100%;
+    margin: 0;
+  }
+
+  .blue-wide-button {
+    padding: 20px 50px;
+    margin: 0;
+  }
+
+  .white-wide-button {
+    padding: 20px 40px;
+    margin-left: 20px;
+  }
+
+  .hero-button-container {
+    margin-top: 30px;
+    text-align: left;
+  }
+
+  h2 {
+    font-size: 50px;
+  }
+
+  .benefits-flexbox {
+    max-width: 1100px;
+    margin: 50px auto 0;
+  }
+
+  .what-we-do-flexbox {
+    flex-direction: row-reverse;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+
+  .what-we-do-flexbox-text {
+    text-align: left;
+    padding: 0 50px 0 0;
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .h2-what-we-do {
+    margin: 0;
+  }
+
+  .h5-what-we-do {
+    font-size: 18px;
+  }
+
+  .what-we-do-picture {
+    width: 55%;
+    max-width:
+  }
+
+  .pricing-cards-flexbox-wrapper {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .white-price-card, .blue-price-card {
+    padding: 50px;
+  }
+
+  .white-price-card {
+    margin: 50px 0 0;
+  }
+
+  .blue-price-card {
+    margin: 50px 20px 0;
+  }
+
+  .contact-us-flexbox {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .review-bottom-photo {
+    display: block;
+    padding-left: 30px
+  }
+
 }
