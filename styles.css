@@ -52,6 +52,24 @@ h5 {
 button {
   cursor: pointer;
   outline: none;
+  box-shadow:
+  0 2.8px 2.2px rgba(0, 0, 0, 0.02),
+  0 6.7px 5.3px rgba(0, 0, 0, 0.028),
+  0 12.5px 10px rgba(0, 0, 0, 0.035),
+  0 22.3px 17.9px rgba(0, 0, 0, 0.042),
+  0 41.8px 33.4px rgba(0, 0, 0, 0.05),
+  0 100px 80px rgba(0, 0, 0, 0.07);
+  transition: 0.2s cubic-bezier(0.37, 0, 0.63, 1);
+}
+
+button:hover {
+  box-shadow:
+  0 2.8px 3.8px -4px rgba(0, 0, 0, 0.084),
+  0 6.7px 9px -4px rgba(0, 0, 0, 0.132),
+  0 12.5px 17px -4px rgba(0, 0, 0, 0.161),
+  0 22.3px 30.4px -4px rgba(0, 0, 0, 0.18),
+  0 41.8px 56.8px -4px rgba(0, 0, 0, 0.192),
+  0 100px 136px -4px rgba(0, 0, 0, 0.2);
 }
 
 .white {
@@ -126,17 +144,22 @@ span {
   padding-top: 30px;
 }
 
+.hero-flexbox-large {
+  display: flex;
+  flex-direction: column;
+}
+
 .blue-wide-button {
   background-color: var(--blue);
   color: var(--white);
-  padding: 20px 100px;
+  padding: 20px 95px;
   margin: 30px 0;
 }
 
 .white-wide-button {
   background-color: var(--white);
   color: var(--blue);
-  padding: 20px 90px;
+  padding: 20px 85px;
 }
 
 .blue-wide-button, .white-wide-button, .blue-medium-button, .white-medium-button {
@@ -181,6 +204,16 @@ span {
   padding-bottom: 30px;
 }
 
+.benefits-flexbox {
+  display: flex;
+  flex-direction: column;
+}
+
+.benefits-icon-container {
+  display: flex;
+  flex-direction: column;
+}
+
 /* DEMO TOUR */
 
 .demo-tour {
@@ -196,6 +229,11 @@ iframe {
 }
 
 /* WHAT WE DO */
+
+.what-we-do-flexbox {
+  display: flex;
+  flex-direction: column;
+}
 
 .h2-what-we-do {
   margin-top: 50px;
@@ -223,6 +261,11 @@ iframe {
 
 .custom-wrapper {
   max-width: 1100px;
+}
+
+.pricing-cards-flexbox-wrapper {
+  display: flex;
+  flex-direction: column;
 }
 
 .pricing-description-box-white {
@@ -260,7 +303,7 @@ iframe {
   border-radius: 10px;
   padding: 50px;
   margin: 50px auto 0;
-  max-width: 230px;
+  max-width: 250px;
   box-shadow:
   0 0px 3.3px rgba(0, 0, 0, 0.004),
   0 0px 9px rgba(0, 0, 0, 0.008),
@@ -310,4 +353,9 @@ iframe {
 
 .review-bottom-photo {
   display: none;
+}
+
+.contact-us-flexbox {
+  display: flex;
+  flex-direction: column;
 }
