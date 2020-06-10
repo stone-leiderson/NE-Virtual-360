@@ -583,6 +583,12 @@ iframe {
     .blue-price-card {
       padding: 50px;
     }
+
+    .blue-price-card, .white-price-card {
+      min-width: 210px;
+    }
+
+
   }
 
 }
