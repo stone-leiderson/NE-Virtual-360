@@ -335,7 +335,7 @@ iframe {
 }
 
 .price-card-min-height-flexbox {
-  min-height: 550px;
+  min-height: 570px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
