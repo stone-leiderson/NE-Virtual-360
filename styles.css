@@ -214,6 +214,10 @@ span {
   flex-direction: column;
 }
 
+.benefits-right-text-flexbox, .benefits-left-text-flexbox {
+  padding: 0 40px;
+}
+
 /* DEMO TOUR */
 
 .demo-tour {
@@ -398,17 +402,24 @@ iframe {
 
   .benefits-flexbox {
     flex-direction: row;
-    margin: 50px 0 0;
+    margin: 100px auto 0;
     justify-content: space-evenly;
   }
 
   .benefits-icon-container {
     flex-direction: row;
+    align-items: center;
     max-width: 50%;
   }
 
-  .benefits-text-flexbox {
-    padding: 0 20px
+  .benefits-right-text-flexbox {
+    padding: 0 0 0 20px;
+    align-items: flex-start;
+  }
+
+  .benefits-left-text-flexbox {
+    padding: 0 20px 0 20px;
+    align-items: flex-start;
   }
 
   .h4-benefits-section, .p-benefits-section {
