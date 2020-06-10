@@ -2,11 +2,9 @@
   padding: 0;
   margin: 0;
   font-family: 'Open Sans', sans-serif;
-  color: var(--dark-blue);
 }
 
 :root {
-  /* MAIN COLORS */
   --blue: #2B4BFF;
   --dark-blue: #171C27;
   --white: #FFFFFF;
@@ -537,7 +535,6 @@ iframe {
 
   .what-we-do-picture {
     width: 55%;
-    max-width:
   }
 
   .pricing-cards-flexbox-wrapper {
