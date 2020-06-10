@@ -232,6 +232,11 @@ iframe {
   border: 0;
 }
 
+.demo-tour-iframe {
+  width: 100%;
+  height: 400px;
+}
+
 /* WHAT WE DO */
 
 .what-we-do-flexbox {
