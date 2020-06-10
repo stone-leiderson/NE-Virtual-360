@@ -181,6 +181,11 @@ span {
   margin-top: 30px;
 }
 
+.demo-tour-iframe {
+  width: 100%;
+  height: 400px;
+}
+
 /* BENEFITS */
 
 .fa-vr-cardboard, .fa-laptop, .fa-photo-video, .fa-chart-bar, .fa-street-view, .fa-sign {
@@ -232,9 +237,9 @@ iframe {
   border: 0;
 }
 
-.demo-tour-iframe {
+.sample-tour-iframe-responsive {
   width: 100%;
-  height: 400px;
+  height: 350px;
 }
 
 /* WHAT WE DO */
