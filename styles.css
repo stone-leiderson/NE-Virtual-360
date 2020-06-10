@@ -229,6 +229,7 @@ span {
 
 iframe {
   max-width: 600px;
+  border: 0;
 }
 
 /* WHAT WE DO */
