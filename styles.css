@@ -537,21 +537,24 @@ iframe {
     width: 55%;
   }
 
+  .what-we-do-button {
+    margin-right: 175px;
+  }
+
   .pricing-cards-flexbox-wrapper {
     flex-direction: row;
     justify-content: space-between;
   }
 
-  .white-price-card, .blue-price-card {
-    padding: 50px;
-  }
 
   .white-price-card {
     margin: 50px 0 0;
+    padding: 50px;
   }
 
   .blue-price-card {
-    margin: 50px 10px 0;
+    margin: 50px 5px 0;
+    padding: 50px 44px;
   }
 
   .contact-us-flexbox {
@@ -562,6 +565,12 @@ iframe {
   .review-bottom-photo {
     display: block;
     padding-left: 30px
+  }
+
+  @media (min-width: 1060px) {
+    .blue-price-card {
+      padding: 50px;
+    }
   }
 
 }
